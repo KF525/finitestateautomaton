@@ -1,4 +1,4 @@
-package kfulton.fsa
+package kfulton.fsa.one
 
 class FiniteStateAutomaton {
 

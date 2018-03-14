@@ -1,4 +1,4 @@
-package kfulton.fsa
+package kfulton.fsa.one
 
 import org.scalatest.{FlatSpec, Matchers}
 
@@ -103,3 +103,8 @@ class FiniteStateAutomatonTest extends FlatSpec with Matchers {
     finiteStateAutomaton.runAutomaton(charList, Some(singleState)) shouldBe true
   }
 }
+
+/*
+Internal DSL (current version) versus external DSL
+
+ */
